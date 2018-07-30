@@ -1,0 +1,121 @@
+/* 
+  全局样式--左侧和顶部固定样式
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+ul,ol,dl {
+  list-style: none;
+}
+select,input,img,select {
+  vertical-align: middle;
+}
+a{
+  text-decoration: none;
+}
+a:link {
+  color: #009;
+}
+a:visited {
+  color: #800080;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #c00;
+  text-decoration: underline;
+}
+
+html,
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  font-family: 'Microsoft YaHei','Avenir',Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #394259;
+}
+
+.con {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.left,
+.rightC {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.left {
+  width: 200px;
+  left: 0;
+  background: #394259;
+}
+.rightC {
+  left: 0;
+  right: 0;
+  margin-left: 200px;
+  overflow: auto;
+  border-left: 1px solid #E2E2E2;
+}
+input{
+  outline: none;
+  border: none;
+}
+input:focus {
+    outline: none
+}
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input::-webkit-input-placeholder {
+    font-size: 12px;
+    color: #aeaeae;
+}
+
+input:-moz-placeholder {
+    font-size: 12px;
+    color: #aeaeae;
+}
+
+input::-moz-placeholder {
+    font-size: 12px;
+    color: #aeaeae;
+}
+
+input:-ms-input-placeholder {
+    font-size: 12px;
+    color: #aeaeae;
+}
+
+.clearfix { zoom:1; }
+.clearfix::after { display:block; clear:both; visibility:hidden; height:0; content:''; }
+
+.el-menu{
+  border: 0;
+}
